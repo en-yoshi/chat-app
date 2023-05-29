@@ -3,7 +3,7 @@
 </div>
 
 <div class="messages">
-  中略
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>

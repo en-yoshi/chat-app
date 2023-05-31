@@ -88,8 +88,11 @@ select {
   background-color: #434a54;
   height: 80px;
   width: 100%;
+<<<<<<< Updated upstream
 }
 
 .field_with_errors {
   display: contents;
+=======
+>>>>>>> Stashed changes
 }
